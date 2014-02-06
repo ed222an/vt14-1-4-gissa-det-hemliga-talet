@@ -58,24 +58,17 @@ namespace Gissa_det_hemliga_talet.Model
             }
         }
 
-        public Outcome Outcome
-        {
-            get
-            {
-                return Outcome;
-            }
-            set
-            {
-
-            }
-        }
+        public Outcome Outcome {get; set;}
 
         // Metoder
         public void Initialize()
         {
+            // Skapar ett nytt random-objekt och ett hemligt nummer mellan 1-100.
             Random rnd = new Random();
             _number = rnd.Next(1, 101);
 
+            // Skapar ny lista & tömmer eventuella existerande element.
+            _previousGuesses = new List<int>(MaxNumberOfGuesses);
             _previousGuesses.Clear();
             Outcome = Outcome.Indefinite;
         }
@@ -95,11 +88,11 @@ namespace Gissa_det_hemliga_talet.Model
                 }
                 else
                 {
-                    if (guess < Number) // Gissningen är mindre än det hemliga talet.
+                    if (guess < _number) // Gissningen är mindre än det hemliga talet.
                     {
                         Outcome = Outcome.Low;
                     }
-                    else if (guess > Number) // Gissningen är större än det hemliga talet.
+                    else if (guess > _number) // Gissningen är större än det hemliga talet.
                     {
                         Outcome = Outcome.High;
                     }
@@ -123,7 +116,6 @@ namespace Gissa_det_hemliga_talet.Model
         // Konstruktor
         public SecretNumber()
         {
-            _previousGuesses = new List<int>(7);
             Initialize();
         }
     }

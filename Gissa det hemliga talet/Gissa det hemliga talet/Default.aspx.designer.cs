@@ -16,8 +16,8 @@ namespace Gissa_det_hemliga_talet {
         /// form1 control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
@@ -25,8 +25,8 @@ namespace Gissa_det_hemliga_talet {
         /// ValidationSummary1 control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
         
@@ -34,8 +34,8 @@ namespace Gissa_det_hemliga_talet {
         /// InputLiteral control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal InputLiteral;
         
@@ -43,26 +43,26 @@ namespace Gissa_det_hemliga_talet {
         /// InputTextBox control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox InputTextBox;
         
         /// <summary>
-        /// SendButton control.
+        /// GuessButton control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SendButton;
+        protected global::System.Web.UI.WebControls.Button GuessButton;
         
         /// <summary>
         /// RequiredFieldValidator1 control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
@@ -70,8 +70,8 @@ namespace Gissa_det_hemliga_talet {
         /// RangeValidator1 control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
         
@@ -79,35 +79,35 @@ namespace Gissa_det_hemliga_talet {
         /// GuessLabel control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label GuessLabel;
         
         /// <summary>
-        /// WinLabel control.
+        /// StatusLabel control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label WinLabel;
+        protected global::System.Web.UI.WebControls.Label StatusLabel;
         
         /// <summary>
-        /// FailLabel control.
+        /// EndLabel control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FailLabel;
+        protected global::System.Web.UI.WebControls.Label EndLabel;
         
         /// <summary>
         /// ResetButton control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated Indefinite.
-        /// To modify move Indefinite declaration from designer file to code-behind file.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ResetButton;
     }

@@ -62,6 +62,7 @@
   <ItemGroup>
     <Content Include="Content\Style.css" />
     <Content Include="Default.aspx" />
+    <Content Include="ErrorPage.html" />
     <Content Include="packages.config" />
     <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />

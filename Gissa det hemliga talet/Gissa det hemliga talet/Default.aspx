@@ -18,8 +18,8 @@
             <%-- Inputfält och skicka-knapp --%>
             <div>
                 <asp:Literal ID="InputLiteral" runat="server" Text="Ange ett tal mellan 1-100: "></asp:Literal>
-                <asp:TextBox ID="InputTextBox" runat="server"></asp:TextBox>
-                <asp:Button ID="SendButton" runat="server" Text="Skicka gissning" OnClick="SendButton_Click" />
+                <asp:TextBox ID="InputTextBox" runat="server" Enabled="false"></asp:TextBox>
+                <asp:Button ID="GuessButton" runat="server" Text="Skicka gissning" OnClick="SendButton_Click" Visible="false" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
                     ErrorMessage="Fyll i ett heltal."
                     ControlToValidate="InputTextBox"
@@ -33,18 +33,14 @@
 
             <%-- Presentation av resultat --%>
             <div>
-                <asp:Label ID="GuessLabel" runat="server" Text="Label" Visible="False"></asp:Label>
-                <asp:Label ID="WinLabel" runat="server" Text="Grattis! Du klarade det på {0} försök!" Visible="False"></asp:Label>
-            </div>
-
-            <%-- Misslyckande --%>
-            <div>
-                <asp:Label ID="FailLabel" runat="server" Text="Du har inga gissningar kvar. Det hemliga talet var {0}." Visible="False"></asp:Label>
+                <asp:Label ID="GuessLabel" runat="server" Visible="False"></asp:Label>
+                <asp:Label ID="StatusLabel" runat="server"></asp:Label>
+                <asp:Label ID="EndLabel" runat="server" Visible="False"></asp:Label>
             </div>
 
             <%-- Knapp för ny gissning --%>
             <div>
-                <asp:Button ID="ResetButton" runat="server" Text="Slumpa nytt hemligt tal" Visible="False" />
+                <asp:Button ID="ResetButton" runat="server" Text="Slumpa nytt hemligt tal" Visible="true" OnClick="ResetButton_Click" CausesValidation="False" />
             </div>
         </div>
     </form>
